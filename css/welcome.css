@@ -1,0 +1,47 @@
+#background {
+    background-color: mistyrose;
+}
+
+#top-nav {
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7em;
+    color: black;
+}
+.col-sm-4 {
+    text-align: center;
+}
+footer {
+    border-top: 1px solid black;
+}
+#insta-icon {
+    height: 40px;
+    width: 40px;
+}
+#tweet-icon {
+    height: 60px;
+    width: 60px;
+}
+#intro-img {
+    height: 300px;
+    width: auto;
+    margin-left: 15%;
+}
+#welcome-body {
+    margin: 30px;
+}
+p {
+    float: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    color: black;
+    line-height: 250px;
+}
