@@ -1,37 +1,97 @@
-#background {
-    background-color: mistyrose;
+/* Reset */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+/* Small */
+
+@media (max-width: 768px) {
+    #background {
+        background-color: mistyrose;
+        border: 10px solid floralwhite;
+    }
+
+    #top-nav {
+        height: 100px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid black;
+    }
+    li {
+        list-style-type: none;
+    }
+    li a {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.2em;
+        color: black;
+        text-align: center;
+    }
+    .col-4 {
+        text-align: center;
+    }
+    #insta-icon {
+        height: 30px;
+        width: 30px;
+    }
+    #tweet-icon {
+        height: 30px;
+        width: 30px;
+    }
+    #center-img {
+        max-width: 100%;
+        display:block;
+        height: auto;
+    }
 }
 
-#top-nav {
-    height: 100px;
-    padding-top: 50px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
-}
-li {
-    list-style-type: none;
-}
-#name {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    color: black;
-}
-li a {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.5em;
-    color: black;
-}
-.col-sm-4 {
-    text-align: center;
-}
-footer {
-    border-top: 1px solid black;
-}
-#insta-icon {
-    height: 40px;
-    width: 40px;
-}
-#tweet-icon {
-    height: 60px;
-    width: 60px;
+/* Larger */
+@media (min-width: 768px) {
+
+    #background {
+        background-color: mistyrose;
+        border: 10px solid floralwhite;
+    }
+
+    #top-nav {
+        height: 100px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid black;
+    }
+
+    li {
+        list-style-type: none;
+    }
+    li a {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .col-4 {
+        text-align: center;
+    }
+
+    footer {
+        border-top: 1px solid black;
+    }
+
+    #insta-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    #tweet-icon {
+        height: 60px;
+        width: 60px;
+    }
+    #center-img {
+        height: 800px;
+        width: auto;
+        box-shadow: 0 0 1em gold;
+        margin-left: 16%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
