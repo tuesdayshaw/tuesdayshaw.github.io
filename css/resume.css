@@ -4,60 +4,18 @@ html, body {
     width: 100%;
     overflow: auto;
 }
-/* Small */
 
-@media (max-width: 768px) {
+
     #background {
-        background-color: mistyrose;
-        border: 10px solid floralwhite;
+        background-color: black;
+        border: 10px solid #FF7828;
     }
 
     #top-nav {
         height: 100px;
         padding-top: 50px;
         padding-bottom: 15px;
-        border-bottom: 1px solid black;
-    }
-    li {
-        list-style-type: none;
-    }
-    li a {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1.2em;
-        color: black;
-        text-align: center;
-    }
-    .col-4 {
-        text-align: center;
-    }
-    #insta-icon {
-        height: 30px;
-        width: 30px;
-    }
-    #tweet-icon {
-        height: 30px;
-        width: 30px;
-    }
-    #center-img {
-        max-width: 100%;
-        display:block;
-        height: auto;
-    }
-}
-
-/* Larger */
-@media (min-width: 768px) {
-
-    #background {
-        background-color: mistyrose;
-        border: 10px solid floralwhite;
-    }
-
-    #top-nav {
-        height: 100px;
-        padding-top: 50px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #FF7828;
     }
 
     li {
@@ -66,7 +24,7 @@ html, body {
     li a {
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1.5em;
-        color: black;
+        color: #FF7828;
     }
 
     .col-4 {
@@ -74,7 +32,7 @@ html, body {
     }
 
     footer {
-        border-top: 1px solid black;
+        border-top: 1px solid #FF7828;
     }
 
     #insta-icon {
@@ -94,4 +52,3 @@ html, body {
         margin-top: 5%;
         margin-bottom: 5%;
     }
-}

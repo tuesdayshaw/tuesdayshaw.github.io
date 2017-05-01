@@ -5,79 +5,12 @@ html, body {
     overflow: auto;
 }
 
-/* Smaller */
-
-@media (max-width: 768px) {
-    #background {
-        background-color: mistyrose;
-        border: 10px solid floralwhite;
-    }
-
-
-    /* Header */
-
-    #top-nav {
-        height: 100px;
-        padding-top: 50px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid black;
-    }
-    li {
-        list-style-type: none;
-    }
-    li a {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1.2em;
-        color: black;
-        text-align: center;
-    }
-    #top-nav {
-        height: 100px;
-        width: auto;
-        border-bottom: 1px solid black;
-    }
-
-    /* Body */
-
-    #art-img {
-        height:300px;
-        width: auto;
-    }
-    p {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1.2em;
-        color: black;
-        text-align: center;
-    }
-    h5 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2em;
-        text-align: center;
-    }
-
-    /* Footer */
-
-    footer {
-        border-top: 1px solid black;
-    }
-    #insta-icon {
-        height: 30px;
-        width: 30px;
-    }
-    #tweet-icon {
-        height: 30px;
-        width: 30px;
-    }
-}
-
-
-/* Larger */
-
-@media (min-width: 768px) {
 
     #background {
-        background-color: mistyrose;
-        border: 10px solid floralwhite;
+        background:-webkit-gradient(radial, 168 6, 0, 220 -257, 465, from(#B39700), to(#FF7828));
+        border: 10px solid #4B2731;
+        max-width: 100%;
+        margin: 0;
     }
 
     /* Header */
@@ -117,9 +50,28 @@ html, body {
     }
     h5 {
         margin-top: 3%;
+        color: #4B2731;
         font-family: 'Playfair Display', serif;
         font-size: 3em;
         text-align: center;
+    }
+    .rose {
+        transition:All 1s ease;
+            -webkit-transition:All 1s ease;
+            -moz-transition:All 1s ease;
+            -o-transition:All 1s ease;
+        transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+            -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+            -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+            -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+            -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    }
+    .rose:hover{
+        transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+            -webkit-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+            -moz-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+            -o-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+            -ms-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
     }
 
     /* Footer */
@@ -135,4 +87,3 @@ html, body {
         height: 60px;
         width: 60px;
     }
-}
