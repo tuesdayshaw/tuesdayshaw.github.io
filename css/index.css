@@ -26,6 +26,7 @@ body {
 #top-nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     color: greenyellow;
     justify-content: space-around;
@@ -49,6 +50,12 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#index-content {
+    height: 60vh;
+    width: 80vw;
+    right: 10vw;
     background-color: floralwhite;
     border: .5em solid black
 }
@@ -57,9 +64,17 @@ h1 {
     display: flex;
     margin: 0;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
+
+@media screen and (max-width: 800px){
+
+}
+
+
+
 
 /*FONTS:*/
 /*font-family: 'Cinzel', serif;*/
