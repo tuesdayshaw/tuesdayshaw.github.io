@@ -1,0 +1,21 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+#tuesday-img {
+    height: 300px;
+    width: 300px;
+    border: .2em solid yellowgreen;
+    border-radius: 60%;
+
+}

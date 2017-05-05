@@ -4,19 +4,14 @@
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
     "use strict";
 
 
-    // $('.rose').animate({
-    //     backgroundColor: {
-    //         val: '#FFF',
-    //         easing: 'linear',
-    //         direction: 'alternate',
-    //         duration: 2000
-    //     }
-    //
-    // })
-});
+    $('.index-rose').slideToggle("slow");
 
+
+
+
+});
 

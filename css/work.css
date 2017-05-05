@@ -1,0 +1,22 @@
+#work-top-row {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#work-bottom-row {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.portfolio {
+    height: 200px;
+    width: 200px;
+}

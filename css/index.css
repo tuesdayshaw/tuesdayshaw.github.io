@@ -22,9 +22,9 @@ body {
     background: linear-gradient(to bottom, rgba(255, 98, 66, 1) 0%, rgba(255, 98, 66, 1) 32%, rgba(255, 135, 95, 1) 100%);
 }
 
-
 #top-nav {
     display: flex;
+    height: 20vh;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
@@ -36,6 +36,11 @@ body {
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 5rem;
+}
+
+#home-index {
+    text-decoration: none;
+    color: greenyellow;
 }
 
 .nav-text {
@@ -53,11 +58,39 @@ h1 {
 }
 
 #index-content {
-    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
     width: 80vw;
     right: 10vw;
     background-color: floralwhite;
     border: .5em solid black
+}
+
+#index-art1 {
+    height: 300px;
+    width: 300px;
+}
+
+#index-art2 {
+    height: 400px;
+    width: 300px;
+    border-radius: 60%;
+    border: .5em solid black;
+    -webkit-box-shadow: 10px 10px 93px 20px rgba(174,250,60,1);
+    -moz-box-shadow: 10px 10px 93px 20px rgba(174,250,60,1);
+    box-shadow: 10px 10px 93px 20px rgba(174,250,60,1);
+}
+
+#index-art3 {
+    height: 300px;
+    width: 300px;
+}
+
+.index-rose {
+    display: none;
 }
 
 #bottom-nav {
@@ -67,6 +100,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.sm-icon {
+    opacity: 1;
 }
 
 @media screen and (max-width: 800px){
