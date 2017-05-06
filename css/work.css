@@ -1,22 +1,35 @@
+#work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+    overflow-x: scroll;
+}
+
 #work-top-row {
+    height: 100%;
     display: flex;
     margin: 0;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    align-items: center;
+    text-align: center;
 }
 
-#work-bottom-row {
-    display: flex;
-    margin: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+/*.projects {*/
+    /*font-size: 4em;*/
+    /*text-align: justify;*/
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*color: #FF2F00;*/
+/*}*/
 
-}
-
-.portfolio {
-    height: 200px;
-    width: 200px;
+.code-links {
+    text-decoration: none;
+    font-size: 6em;
+    text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FF2F00;
 }

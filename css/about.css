@@ -1,7 +1,23 @@
-#about-text {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5em;
-    text-align: justify;
-    padding: 1em;
+#index-content {
+    overflow-x: scroll;
+    flex-direction: column;
+}
 
+#hello {
+    font-size: 4em;
+    text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FF2F00;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
 }
