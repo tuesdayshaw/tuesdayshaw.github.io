@@ -70,9 +70,9 @@ h1 {
     border: .2em solid black
 }
 
-#index-art1 {
-    height: 300px;
-    width: 300px;
+.index-art1 {
+    height: 50px;
+    width: 50px;
 }
 
 #index-art2 {
@@ -85,13 +85,24 @@ h1 {
     box-shadow: 10px 10px 93px 20px rgba(174,250,60,1);
 }
 
-#index-art3 {
-    height: 300px;
-    width: 300px;
-}
-
 .index-rose {
     display: none;
+}
+
+.info-content {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-facts {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5em;
+    text-align: justify;
+    padding: 1em;
 }
 
 #bottom-nav {
@@ -99,7 +110,7 @@ h1 {
     margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     align-items: flex-end;
 }
 
