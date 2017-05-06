@@ -18,7 +18,28 @@
 
 #tuesday-img {
     height: 40vh;
-    width: 15vw;
+    width: 20vw;
     border: .2em solid yellowgreen;
     border-radius: 60%;
+}
+
+@media screen and (min-width: 420px) and (max-width: 1024px){
+    #contact-text {
+        font-size: 2em;
+    }
+
+    #tuesday-img {
+        height: 50vh;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #contact-text {
+        font-size: 1em;
+    }
+    #tuesday-img {
+        height: 40vh;
+        width: 35vw;
+    }
 }

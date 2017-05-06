@@ -141,10 +141,11 @@ h1 {
 
 .social-media-btn {
     background-color: transparent;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     width: 8vw;
     height: 4vh;
     border: .5px solid yellowgreen;
+    padding: 0;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2vh;

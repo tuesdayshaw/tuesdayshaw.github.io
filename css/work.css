@@ -28,8 +28,20 @@
 
 .code-links {
     text-decoration: none;
-    font-size: 6em;
+    font-size: 6vh;
     text-align: justify;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #FF2F00;
+}
+
+@media screen and (min-width: 420px) and (max-width: 1024px) {
+    .code-links {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .code-links {
+        font-size: 3vh;
+    }
 }
