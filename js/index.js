@@ -8,7 +8,7 @@ $(document).ready(function() {
     "use strict";
 
 
-    $('.index-rose').slideToggle("slow");
+    $('.index-art1').slideDown();
 
 
 
