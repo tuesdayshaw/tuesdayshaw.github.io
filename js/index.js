@@ -8,7 +8,7 @@ $(document).ready(function() {
     "use strict";
 
 
-    $('.index-art1').slideDown();
+    $('.index-art1').slideDown("slow");
 
 
 
