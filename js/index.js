@@ -10,6 +10,8 @@ $(document).ready(function() {
 
     $('.index-art1').slideDown("slow");
 
+    $()
+
 
 
 
