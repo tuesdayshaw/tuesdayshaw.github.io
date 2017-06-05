@@ -8,7 +8,11 @@ $(document).ready(function() {
     "use strict";
 
 
-    $('.index-art1').slideDown("slow");
+    $('.index-art1').animate({
+        opacity: "hide"
+    }, 1000).animate({
+        opacity: "show"
+    });
 
     $()
 
