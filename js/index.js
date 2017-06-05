@@ -8,15 +8,27 @@ $(document).ready(function() {
     "use strict";
 
 
-    $('.index-art1').animate({
-        opacity: "hide"
-    }, 1000).animate({
-        opacity: "show"
+    // $('.index-rose').animate({
+    //     opacity: "hide"
+    // }, 9500).animate({
+    //     opacity: "show"
+    // }, 3500);
+    //
+    // $('#dev').animate({
+    //     right: "100px"
+    // });
+
+    $(window).bind("load", function() {
+        $('.index-rose').animate({
+            opacity: "hide"
+        }, 9500).animate({
+            opacity: "show"
+        }, 3500);
+
+        $('#dev').animate({
+            right: "100px"
+        });
     });
-
-    $()
-
-
 
 
 });
