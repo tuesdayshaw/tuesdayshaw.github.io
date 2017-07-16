@@ -7,10 +7,14 @@
 $(document).ready(function() {
     "use strict";
 
+    $('.index-art1').hide();
+    $('.index-art1').animate({
+        opacity: "show"
+    }, 8500);
 
-    $('.index-art1').slideDown("slow");
-
-    $()
+    $('#dev').animate({
+        left: '500px'
+    }, 5000);
 
 
 
