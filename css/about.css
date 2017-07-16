@@ -17,9 +17,10 @@
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4vh;
-    text-align: justify;
+    text-align: center;
     padding-left: 1vw;
     padding-right: 1vw;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 420px) and (max-width: 1024px){

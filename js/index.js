@@ -7,28 +7,16 @@
 $(document).ready(function() {
     "use strict";
 
+    $('.index-art1').hide();
+    $('.index-art1').animate({
+        opacity: "show"
+    }, 8500);
 
-    // $('.index-rose').animate({
-    //     opacity: "hide"
-    // }, 9500).animate({
-    //     opacity: "show"
-    // }, 3500);
-    //
-    // $('#dev').animate({
-    //     right: "100px"
-    // });
+    $('#dev').animate({
+        left: '500px'
+    }, 5000);
 
-    $(window).bind("load", function() {
-        $('.index-rose').animate({
-            opacity: "hide"
-        }, 9500).animate({
-            opacity: "show"
-        }, 3500);
 
-        $('#dev').animate({
-            right: "100px"
-        });
-    });
 
 
 });
