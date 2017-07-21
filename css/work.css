@@ -6,6 +6,7 @@
     height: auto;
     width: inherit;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #work-top-row {
@@ -19,6 +20,7 @@
 }
 
 .projects {
+    height: auto;
     font-size: 1em;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #FF2F00;
@@ -42,14 +44,38 @@
     color: #FF2F00;
 }
 
-@media screen and (min-width: 420px) and (max-width: 1024px) {
+@media screen and (min-width: 425px) and (max-width: 1024px) {
     .code-links {
-        font-size: 4vh;
+        font-size: 6vh;
+        color: black;
+    }
+
+    #work-top-row {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: auto;
+    }
+
+    .project-img {
+        display: none;
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 425px){
     .code-links {
-        font-size: 3vh;
+        font-size: 5vh;
+        color: black;
+    }
+
+    #work-top-row {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: auto;
+    }
+
+    .project-img {
+        display: none;
     }
 }
