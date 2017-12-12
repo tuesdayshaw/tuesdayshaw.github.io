@@ -6,7 +6,7 @@
     height: auto;
     width: inherit;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 #work-top-row {

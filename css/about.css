@@ -1,5 +1,5 @@
 #index-content {
-    overflow-x: scroll;
+    overflow-x: hidden;
     flex-direction: column;
 }
 
