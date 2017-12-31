@@ -85,7 +85,6 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 70vh;
     width: 90vw;
     /*right: 10vw;*/
     background-color: floralwhite;
@@ -164,6 +163,37 @@ h1 {
     text-decoration: none;
 }
 
+#index-content {
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+#hello {
+    font-size: 8vh;
+    text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FF2F00;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    overflow-x: hidden;
+}
+
+#tuesday-img {
+    height: 20rem;
+    width: 17rem;
+    border: .2em solid yellowgreen;
+    border-radius: 60%;
+}
 
 @media screen and (min-width: 420px) and (max-width: 1024px){
     #top-nav {
@@ -201,6 +231,24 @@ h1 {
 
     .social-media-btn {
         font-size: 1.5vh;
+    }
+
+    #about-text {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #hello {
+        font-size: 6vh;
+    }
+
+    #about-text {
+        font-size: 3vh;
+    }
+
+    #tuesday-img {
+        margin-top: 1em;
+        height: 12rem;
+        width: 10rem;
     }
 }
 
@@ -242,6 +290,23 @@ h1 {
 
     .info-facts {
         font-size: 4vh;
+    }
+
+    #about-text {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #hello {
+        font-size: 4vh;
+    }
+
+    #about-text {
+        font-size: 2vh;
+    }
+
+    #tuesday-img {
+        height: 12rem;
+        width: 10rem;
     }
 }
 
